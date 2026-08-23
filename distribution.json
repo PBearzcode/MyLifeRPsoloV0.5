@@ -1,20 +1,28 @@
 {
-  "id": "mon-serveur-rp",
-  "name": "Mon Serveur RP",
-  "description": "Serveur de RolePlay Solo",
-  "icon": "",
-  "minecraftVersion": "1.21.8",
   "version": "1.0.0",
-  "modules": [
+  "servers": [
     {
-      "id": "roleplay",
-      "name": "RolePlay Mod",
-      "type": "NeoForgeMod",
-      "required": true,
-      "path": "mods/roleplay-1.0.0-neoforge-1.21.8.jar",
-      "hash": "e5fb0cb2831f7016a60a0d010545e5bf",
-      "size": 10388299,
-      "url": "https://raw.githubusercontent.com/TON_NOM/TON_REPO/main/mods/roleplay-1.0.0-neoforge-1.21.8.jar"
+      "id": "mon-serveur-rp",
+      "name": "Mon Serveur RP",
+      "description": "Serveur de RolePlay Solo",
+      "icon": "",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.8",
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "roleplay-mod",
+          "name": "RolePlay Mod",
+          "type": "NeoForgeMod",
+          "artifact": {
+            "size": 10388299,
+            "url": "https://raw.githubusercontent.com/PBearzcode/helios-distribution/main/mods/roleplay-1.0.0-neoforge-1.21.8.jar",
+            "MD5": "e5fb0cb2831f7016a60a0d010545e5bf"
+          }
+        }
+      ]
     }
   ]
 }
