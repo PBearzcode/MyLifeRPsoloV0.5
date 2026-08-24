@@ -35,7 +35,7 @@
           "subModules": [
             {
               "id": "1.21.8-neoforge-21.8.53",
-              "name": "NeoForge (version.json))",
+              "name": "NeoForge (version.json)",
               "type": "VersionManifest",
               "artifact": {
                 "size": 19316,
