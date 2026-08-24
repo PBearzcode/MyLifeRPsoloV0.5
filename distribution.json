@@ -29,7 +29,7 @@
           "type": "NeoForgeHosted",
           "artifact": {
             "size": 29525242,
-            "MD5": "5178B8EE0DBB4CFF18266CE119F41571 ",
+            "MD5": "5178B8EE0DBB4CFF18266CE119F41571",
             "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/latest/download/neoforge-21.8.53.jar"
           },
           "subModules": [
