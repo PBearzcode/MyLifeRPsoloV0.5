@@ -24,23 +24,23 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2859:universal",
-          "name": "Minecraft Forge",
-          "type": "ForgeHosted",
+          "id": "net.neoforged:neoforge:21.8.53",
+          "name": "NeoForge 21.8.53",
+          "type": "NeoForgeHosted",
           "artifact": {
-            "size": 4466108,
-            "MD5": "fda01cd3cae80c2c6348ac3fc26e0af8",
-            "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-universal.jar"
+            "size": 29525242,
+            "MD5": "5178B8EE0DBB4CFF18266CE119F41571 ",
+            "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/download/v1.0.0/neoforge-21.8.53.jar"
           },
           "subModules": [
             {
-              "id": "1.12.2-14.23.5.2859",
-              "name": "Minecraft Forge (version.json)",
+              "id": "1.21.8-neoforge-21.8.53",
+              "name": "NeoForge (version.json))",
               "type": "VersionManifest",
               "artifact": {
-                "size": 12345,
-                "MD5": "1959bb357e54a9666dd80d744b524639",
-                "url": "https://helios-files.geekcorner.eu.org/repo/versions/1.12.2-forge-14.23.5.2859/1.12.2-forge-14.23.5.2859.json"
+                "size": 19316,
+                "MD5": "0B1AE81C2E211E75DE44E68088ED0FC9",
+                "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/download/v1.0.0/neoforge-21.8.53.json"
               }
             },
             {
