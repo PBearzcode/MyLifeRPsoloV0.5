@@ -7,28 +7,10 @@
     "smallImageKey": "big"
   },
   "servers": [
-{
-  "version": "1.0.0",
-  "rss": "https://helios-files.geekcorner.eu.org/rss.xml",
-  "discord": {
-    "clientId": "1086936373057040395",
-    "smallImageText": "Change me through Nebula",
-    "smallImageKey": "big"
-  },
-  "servers": [
-  {
-  "version": "1.0.0",
-  "rss": "https://helios-files.geekcorner.eu.org/rss.xml",
-  "discord": {
-    "clientId": "1086936373057040395",
-    "smallImageText": "Change me through Nebula",
-    "smallImageKey": "big"
-  },
-  "servers": [
     {
       "id": "MyLifeRPsoloV0.5",
       "name": "MyLifeRPsoloV0.5",
-      "description": "MyLifeRPsoloV0.5 - Minecraft 1.21.8 (NeoForge v21.8.54)",
+      "description": "MyLifeRPsoloV0.5 - Minecraft 1.21.8 (NeoForge v21.8.54)yess",
       "icon": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/WesterosCraft-Demo-1.12.2.png",
       "version": "2.1.6",
       "address": "mc.westeroscraft.com:25565",
@@ -53,7 +35,7 @@
           "subModules": [
             {
               "id": "1.21.8-neoforge-21.8.53",
-              "name": "NeoForge (version.json)",
+              "name": "NeoForge (version.json))",
               "type": "VersionManifest",
               "artifact": {
                 "size": 19316,
@@ -64,7 +46,7 @@
           ]
         },
         {
-          "id": "myliferp:MyLifeRPSoloV0.5:1.0.0",
+          "id": "com.creativemd:creativecore:1.10@jar",
           "name": "MyLifeRPSoloV0.5",
           "type": "ForgeMod",
           "artifact": {
@@ -75,8 +57,5 @@
         }
       ]
     }
-  ]
-}
-
   ]
 }
