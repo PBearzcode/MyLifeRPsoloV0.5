@@ -30,7 +30,7 @@
           "artifact": {
             "size": 29525242,
             "MD5": "5178B8EE0DBB4CFF18266CE119F41571 ",
-            "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/latest/download/v1.0.0/neoforge-21.8.53.jar"
+            "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/latest/download/neoforge-21.8.53.jar"
           },
           "subModules": [
             {
@@ -40,7 +40,7 @@
               "artifact": {
                 "size": 19316,
                 "MD5": "0B1AE81C2E211E75DE44E68088ED0FC9",
-                "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/latest/download/v1.0.0/neoforge-21.8.53.json"
+                "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/latest/download/neoforge-21.8.53.json"
               }
             }
           ]
@@ -51,7 +51,7 @@
           "type": "NeoForgeMod",
           "artifact": {
             "size": 10388299,
-            "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/download/v1.0.0/roleplay-1.0.0-neoforge-1.21.8.jar",
+            "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/latest/download/roleplay-1.0.0-neoforge-1.21.8.jar",
             "MD5": "E5FB0CB2831F7016A60A0D010545E5BF"
           }
         },
