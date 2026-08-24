@@ -10,7 +10,7 @@
     {
       "id": "MyLifeRPsoloV0.5",
       "name": "MyLifeRPsoloV0.5",
-      "description": "MyLifeRPsoloV0.5 - Minecraft 1.21.8 (NeoForge v21.8.54)bruh",
+      "description": "MyLifeRPsoloV0.5 - Minecraft 1.21.8 (NeoForge v21.8.54)",
       "icon": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/WesterosCraft-Demo-1.12.2.png",
       "version": "2.1.6",
       "address": "mc.westeroscraft.com:25565",
@@ -46,9 +46,9 @@
           ]
         },
         {
-          "id": "com.creativemd:creativecore:1.10@jar",
+          "id": "myliferp-mod",
           "name": "MyLifeRPSoloV0.5",
-          "type": "ForgeMod",
+          "type": "NeoForgeMod",
           "artifact": {
             "size": 10388299,
             "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/latest/download/roleplay-1.0.0-neoforge-1.21.8.jar",
