@@ -48,7 +48,7 @@
         {
           "id": "myliferp:MyLifeRPSoloV0.5:1.0.0",
           "name": "MyLifeRPSoloV0.5",
-          "type": "ForgedMod",
+          "type": "ForgeMod",
           "artifact": {
             "size": 10388299,
             "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/latest/download/roleplay-1.0.0-neoforge-1.21.8.jar",
