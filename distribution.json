@@ -31,7 +31,7 @@
           "artifact": {
             "size": 11196,
             "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/bootstraplauncher/9.0.18/bootstraplauncher-9.0.18.jar",
-            "MD5": ""
+            "MD5": "5BF6153C69DD28951A699F7F834EFE1A"
           }
         },
         {
@@ -42,7 +42,7 @@
           "artifact": {
             "size": 103770,
             "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/securejarhandler/9.0.18/securejarhandler-9.0.18.jar",
-            "MD5": ""
+            "MD5": "AED684DE72B22E08D0B0769AE1B20691"
           }
         },
         {
@@ -53,7 +53,7 @@
           "artifact": {
             "size": 31807,
             "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar",
-            "MD5": ""
+            "MD5": "8D75021E5AEB04652B4B9AE3DF500B9E"
           }
         },
         {
@@ -64,7 +64,7 @@
           "artifact": {
             "size": 325408,
             "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/9.0.18/earlydisplay-9.0.18.jar",
-            "MD5": ""
+            "MD5": "6BF926EFA9FF7E4B876F3DBED0D72495"
           }
         },
         {
@@ -75,7 +75,7 @@
           "artifact": {
             "size": 616152,
             "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/9.0.18/loader-9.0.18.jar",
-            "MD5": ""
+            "MD5": "0BEB9BE8399B0AC07273A3118A1C1328"
           }
         },
         {
@@ -86,7 +86,7 @@
           "artifact": {
             "size": 20292,
             "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/11.0.2/accesstransformers-11.0.2.jar",
-            "MD5": ""
+            "MD5": "922DCBACD9DCC03115E38ACE7F518970"
           }
         },
         {
@@ -97,7 +97,7 @@
           "artifact": {
             "size": 126113,
             "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.8/asm-9.8.jar",
-            "MD5": ""
+            "MD5": "F5ADF3BFC54FB3D2CD8E3A1F275084BC"
           }
         },
         {
@@ -108,7 +108,7 @@
           "artifact": {
             "size": 73498,
             "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar",
-            "MD5": ""
+            "MD5": "C8C3D9CCF240144E74D94FF658B024C9"
           }
         },
         {
@@ -119,7 +119,7 @@
           "artifact": {
             "size": 51934,
             "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar",
-            "MD5": ""
+            "MD5": "4AB1AAEC43C77A2D9B56E6D6D496F705"
           }
         },
         {
@@ -130,7 +130,7 @@
           "artifact": {
             "size": 94559,
             "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar",
-            "MD5": ""
+            "MD5": "62498EF324BDAB15F407D703F7D78D19"
           }
         },
         {
@@ -141,7 +141,7 @@
           "artifact": {
             "size": 35151,
             "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar",
-            "MD5": ""
+            "MD5": "3D63508405F5610FC2EA673FF5471553"
           }
         },
         {
@@ -152,7 +152,7 @@
           "artifact": {
             "size": 30340,
             "url": "https://maven.neoforged.net/releases/net/neoforged/bus/8.0.5/bus-8.0.5.jar",
-            "MD5": ""
+            "MD5": "95EEE080D9DE7CB764ADCB8FA2ECF3FB"
           }
         },
         {
@@ -163,7 +163,7 @@
           "artifact": {
             "size": 17168,
             "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar",
-            "MD5": ""
+            "MD5": "20D1FE8972655189F69845554EE1A4D1"
           }
         },
         {
@@ -174,7 +174,7 @@
           "artifact": {
             "size": 15648,
             "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar",
-            "MD5": ""
+            "MD5": "C2F30969DD8B1DC8E3F78C731BD2C5C8"
           }
         },
         {
@@ -185,7 +185,7 @@
           "artifact": {
             "size": 2550,
             "url": "https://maven.neoforged.net/releases/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar",
-            "MD5": ""
+            "MD5": "818B398F65B8DC5AF802B721FD1D0B56"
           }
         },
         {
@@ -196,7 +196,7 @@
           "artifact": {
             "size": 382911,
             "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar",
-            "MD5": ""
+            "MD5": "A69DB71D5C9C274FF08F175D7C12CB1A"
           }
         },
         {
@@ -207,7 +207,7 @@
           "artifact": {
             "size": 39516,
             "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar",
-            "MD5": ""
+            "MD5": "71C9F7B86422F206C0D78C1A0600FD3A"
           }
         },
         {
@@ -218,7 +218,7 @@
           "artifact": {
             "size": 58819,
             "url": "https://maven.neoforged.net/releases/org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar",
-            "MD5": ""
+            "MD5": "FCB27C2B8225EDEC3F2356973FA39E98"
           }
         },
         {
