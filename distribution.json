@@ -8,54 +8,42 @@
   },
   "servers": [
     {
-      "id": "MyLifeRPsoloV0.5",
-      "name": "MyLifeRPsoloV0.5",
-      "description": "MyLifeRPsoloV0.5 - Minecraft 1.21.8 (NeoForge v21.8.54)",
-      "icon": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/WesterosCraft-Demo-1.12.2.png",
-      "version": "2.1.6",
-      "address": "mc.westeroscraft.com:25565",
-      "minecraftVersion": "1.21.8",
-      "discord": {
-        "shortId": "WesterosCraft Demo",
-        "largeImageKey": "westeroscraft",
-        "largeImageText": "Change me through Nebula"
-      },
-      "mainServer": true,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.neoforged:neoforge:21.8.53",
-          "name": "NeoForge 21.8.53",
-          "type": "ForgeHosted",
-          "artifact": {
-            "size": 29525242,
-            "MD5": "5178B8EE0DBB4CFF18266CE119F41571",
-            "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/latest/download/neoforge-21.8.53.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.21.8-neoforge-21.8.53",
-              "name": "NeoForge (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 19316,
-                "MD5": "0B1AE81C2E211E75DE44E68088ED0FC9",
-                "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/latest/download/neoforge-21.8.53.json"
-              }
-            }
-          ]
-        },
-        {
-          "id": "myliferp:MyLifeRPSoloV0.5:1.0.0",
-          "name": "MyLifeRPSoloV0.5",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 10388299,
-            "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/latest/download/roleplay-1.0.0-neoforge-1.21.8.jar",
-            "MD5": "E5FB0CB2831F7016A60A0D010545E5BF"
-          }
-        }
-      ]
+  "id": "net.neoforged:neoforge:21.8.53",
+  "name": "NeoForge 21.8.53yess",
+  "type": "ForgeHosted",
+  "artifact": {
+    "size": 29525242,
+    "MD5": "5178B8EE0DBB4CFF18266CE119F41571",
+    "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/latest/download/neoforge-21.8.53.jar"
+  },
+  "subModules": [
+    {
+      "id": "net.neoforged.fancymodloader:bootstraplauncher:9.0.18",
+      "name": "BootstrapLauncher",
+      "type": "Library",
+      "artifact": {
+        "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/bootstraplauncher/9.0.18/bootstraplauncher-9.0.18.jar"
+      }
+    },
+
+    {
+      "id": "net.neoforged.fancymodloader:securejarhandler:9.0.18",
+      "name": "SecureJarHandler",
+      "type": "Library",
+      "artifact": {
+        "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/securejarhandler/9.0.18/securejarhandler-9.0.18.jar"
+      }
+    },
+
+    {
+      "id": "net.neoforged:JarJarFileSystems:0.4.1",
+      "name": "JarJarFileSystems",
+      "type": "Library",
+      "artifact": {
+        "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar"
+      }
     }
+  ]
+}
   ]
 }
