@@ -10,7 +10,7 @@
       "id": "MyLifeRPsoloV0.5",
       "name": "MyLifeRPsoloV0.5",
       "description": "MyLifeRPsoloV0.5 - Minecraft 1.21.8 (NeoForge v21.8.53)",
-      "icon": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/WesterosCraft-Demo-1.12.2.png",
+      "icon": "https://eu.org",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.21.8",
@@ -23,510 +23,215 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.neoforged.fancymodloader:bootstraplauncher:9.0.18",
-          "name": "NeoForge (bootstraplauncher)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 11196,
-            "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/bootstraplauncher/9.0.18/bootstraplauncher-9.0.18.jar",
-            "MD5": "5BF6153C69DD28951A699F7F834EFE1A"
-          }
-        },
-        {
-          "id": "net.neoforged.fancymodloader:securejarhandler:9.0.18",
-          "name": "NeoForge (securejarhandler)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 103770,
-            "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/securejarhandler/9.0.18/securejarhandler-9.0.18.jar",
-            "MD5": "AED684DE72B22E08D0B0769AE1B20691"
-          }
-        },
-        {
-          "id": "net.neoforged:JarJarFileSystems:0.4.1",
-          "name": "NeoForge (JarJarFileSystems)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 31807,
-            "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar",
-            "MD5": "8D75021E5AEB04652B4B9AE3DF500B9E"
-          }
-        },
-        {
-          "id": "net.neoforged.fancymodloader:earlydisplay:9.0.18",
-          "name": "NeoForge (earlydisplay)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 325408,
-            "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/9.0.18/earlydisplay-9.0.18.jar",
-            "MD5": "6BF926EFA9FF7E4B876F3DBED0D72495"
-          }
-        },
-        {
-          "id": "net.neoforged.fancymodloader:loader:9.0.18",
-          "name": "NeoForge (loader)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 616152,
-            "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/9.0.18/loader-9.0.18.jar",
-            "MD5": "0BEB9BE8399B0AC07273A3118A1C1328"
-          }
-        },
-        {
-          "id": "net.neoforged:accesstransformers:11.0.2",
-          "name": "NeoForge (accesstransformers)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 20292,
-            "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/11.0.2/accesstransformers-11.0.2.jar",
-            "MD5": "922DCBACD9DCC03115E38ACE7F518970"
-          }
-        },
-        {
-          "id": "org.ow2.asm:asm:9.8",
-          "name": "NeoForge (asm)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 126113,
-            "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.8/asm-9.8.jar",
-            "MD5": "F5ADF3BFC54FB3D2CD8E3A1F275084BC"
-          }
-        },
-        {
-          "id": "org.ow2.asm:asm-commons:9.8",
-          "name": "NeoForge (asm-commons)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 73498,
-            "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar",
-            "MD5": "C8C3D9CCF240144E74D94FF658B024C9"
-          }
-        },
-        {
-          "id": "org.ow2.asm:asm-tree:9.8",
-          "name": "NeoForge (asm-tree)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 51934,
-            "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar",
-            "MD5": "4AB1AAEC43C77A2D9B56E6D6D496F705"
-          }
-        },
-        {
-          "id": "org.ow2.asm:asm-util:9.8",
-          "name": "NeoForge (asm-util)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 94559,
-            "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar",
-            "MD5": "62498EF324BDAB15F407D703F7D78D19"
-          }
-        },
-        {
-          "id": "org.ow2.asm:asm-analysis:9.8",
-          "name": "NeoForge (asm-analysis)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 35151,
-            "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar",
-            "MD5": "3D63508405F5610FC2EA673FF5471553"
-          }
-        },
-        {
-          "id": "net.neoforged:bus:8.0.5",
-          "name": "NeoForge (bus)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 30340,
-            "url": "https://maven.neoforged.net/releases/net/neoforged/bus/8.0.5/bus-8.0.5.jar",
-            "MD5": "95EEE080D9DE7CB764ADCB8FA2ECF3FB"
-          }
-        },
-        {
-          "id": "net.neoforged:JarJarSelector:0.4.1",
-          "name": "NeoForge (JarJarSelector)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 17168,
-            "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar",
-            "MD5": "20D1FE8972655189F69845554EE1A4D1"
-          }
-        },
-        {
-          "id": "net.neoforged:JarJarMetadata:0.4.1",
-          "name": "NeoForge (JarJarMetadata)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 15648,
-            "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar",
-            "MD5": "C2F30969DD8B1DC8E3F78C731BD2C5C8"
-          }
-        },
-        {
-          "id": "net.neoforged:mergetool:2.0.0:api",
-          "name": "NeoForge (mergetool)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 2550,
-            "url": "https://maven.neoforged.net/releases/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar",
-            "MD5": "818B398F65B8DC5AF802B721FD1D0B56"
-          }
-        },
-        {
-          "id": "com.electronwill.night-config:core:3.8.3",
-          "name": "NeoForge (night-config-core)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 382911,
-            "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar",
-            "MD5": "A69DB71D5C9C274FF08F175D7C12CB1A"
-          }
-        },
-        {
-          "id": "com.electronwill.night-config:toml:3.8.3",
-          "name": "NeoForge (night-config-toml)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 39516,
-            "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar",
-            "MD5": "71C9F7B86422F206C0D78C1A0600FD3A"
-          }
-        },
-        {
-          "id": "org.apache.maven:maven-artifact:3.9.9",
-          "name": "NeoForge (maven-artifact)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 58819,
-            "url": "https://maven.neoforged.net/releases/org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar",
-            "MD5": "FCB27C2B8225EDEC3F2356973FA39E98"
-          }
-        },
-        {
-          "id": "net.jodah:typetools:0.6.3",
-          "name": "NeoForge (typetools)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 18281,
-            "url": "https://maven.neoforged.net/releases/net/jodah/typetools/0.6.3/typetools-0.6.3.jar",
-            "MD5": "D4A375BF382F726CF1A650CCB38A736C"
-          }
-        },
-        {
-          "id": "net.minecrell:terminalconsoleappender:1.3.0",
-          "name": "NeoForge (terminalconsoleappender)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 16949,
-            "url": "https://maven.neoforged.net/releases/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar",
-            "MD5": "179D3ABAF9736DBD8FBD4FA98E1C6EA1"
-          }
-        },
-        {
-          "id": "net.fabricmc:sponge-mixin:0.15.2+mixin.0.8.7",
-          "name": "NeoForge (sponge-mixin)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 1494751,
-            "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar",
-            "MD5": "4808C070BF19415A5CB4A0CB5E569B12"
-          }
-        },
-        {
-          "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
-          "name": "NeoForge (jopt-simple)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 78146,
-            "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
-            "MD5": "EB0D9DFFE9B0EDDEAD68FE678BE76C49"
-          }
-        },
-        {
-          "id": "net.neoforged.accesstransformers:at-parser:11.0.2",
-          "name": "NeoForge (at-parser)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 19331,
-            "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/at-parser/11.0.2/at-parser-11.0.2.jar",
-            "MD5": "700238DB71CB897292EB5E11E76CA769"
-          }
-        },
-        {
-          "id": "org.slf4j:slf4j-api:2.0.16",
-          "name": "NeoForge (slf4j-api)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 69435,
-            "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar",
-            "MD5": "C8DE8F5D740584CB24B5652CFBA8B3C4"
-          }
-        },
-        {
-          "id": "com.mojang:logging:1.5.10",
-          "name": "NeoForge (logging)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 19800,
-            "url": "https://libraries.minecraft.net/com/mojang/logging/1.5.10/logging-1.5.10.jar",
-            "MD5": "0B7DA24CEA4E840B91C13ED08657A6D3"
-          }
-        },
-        {
-          "id": "org.apache.logging.log4j:log4j-api:2.24.1",
-          "name": "NeoForge (log4j-api)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 348428,
-            "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.24.1/log4j-api-2.24.1.jar",
-            "MD5": "4DAC8BC9A21F3503CD1A856503B6FEA0"
-          }
-        },
-        {
-          "id": "org.apache.logging.log4j:log4j-core:2.24.1",
-          "name": "NeoForge (log4j-core)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 1910958,
-            "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.24.1/log4j-core-2.24.1.jar",
-            "MD5": "FD982D71F36250BC31528FC7E3D0807D"
-          }
-        },
-        {
-          "id": "org.apache.logging.log4j:log4j-slf4j2-impl:2.24.1",
-          "name": "NeoForge (log4j-slf4j2-impl)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 30133,
-            "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j2-impl/2.24.1/log4j-slf4j2-impl-2.24.1.jar",
-            "MD5": "033362DDEAC79BA54FDC33CC2004D445"
-          }
-        },
-        {
-          "id": "org.jline:jline-reader:3.20.0",
-          "name": "NeoForge (jline-reader)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 171052,
-            "url": "https://maven.neoforged.net/releases/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar",
-            "MD5": "9ECE57CA56A1688D1D09FE2C48E7A292"
-          }
-        },
-        {
-          "id": "org.jline:jline-terminal:3.20.0",
-          "name": "NeoForge (jline-terminal)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 228481,
-            "url": "https://maven.neoforged.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar",
-            "MD5": "E45DACE437743E6B5E75C81EB455FD3E"
-          }
-        },
-        {
-          "id": "commons-io:commons-io:2.17.0",
-          "name": "NeoForge (commons-io)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 515978,
-            "url": "https://libraries.minecraft.net/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar",
-            "MD5": "F6232D0E290D58BB93F74F67165BF91F"
-          }
-        },
-        {
-          "id": "net.minecraftforge:srgutils:0.4.15",
-          "name": "NeoForge (srgutils)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 69393,
-            "url": "https://maven.neoforged.net/releases/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar",
-            "MD5": "79812FD073AFE1C046BC1EA46AD28095"
-          }
-        },
-        {
-          "id": "com.google.guava:guava:33.3.1-jre",
-          "name": "NeoForge (guava)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 3079289,
-            "url": "https://libraries.minecraft.net/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar",
-            "MD5": "7B7D80D99AF4181DB55B00DAD50A91BB"
-          }
-        },
-        {
-          "id": "com.google.guava:failureaccess:1.0.2",
-          "name": "NeoForge (failureaccess)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 4740,
-            "url": "https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
-            "MD5": "3F75955B49B6758FD6D1E1BD9BF777B3"
-          }
-        },
-        {
-          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
-          "name": "NeoForge (listenablefuture)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 2199,
-            "url": "https://libraries.minecraft.net/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
-            "MD5": "D094C22570D65E132C19CEA5D352E381"
-          }
-        },
-        {
-          "id": "com.google.code.findbugs:jsr305:3.0.2",
-          "name": "NeoForge (jsr305)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 19936,
-            "url": "https://libraries.minecraft.net/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
-            "MD5": "DD83ACCB899363C32B07D7A1B2E4CE40"
-          }
-        },
-        {
-          "id": "org.checkerframework:checker-qual:3.43.0",
-          "name": "NeoForge (checker-qual)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 231525,
-            "url": "https://libraries.minecraft.net/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar",
-            "MD5": "4F56E65C8F302CA8B4CB384C9B4A53B6"
-          }
-        },
-        {
-          "id": "com.google.code.gson:gson:2.11.0",
-          "name": "NeoForge (gson)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 298435,
-            "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar",
-            "MD5": "0C69B9199D3A4E6C34DC03619FF7FEEE"
-          }
-        },
-        {
-          "id": "com.google.errorprone:error_prone_annotations:2.28.0",
-          "name": "NeoForge (error_prone_annotations)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 19370,
-            "url": "https://maven.neoforged.net/releases/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar",
-            "MD5": "9E5D2181DDB6ACB58FE08E86198C4232"
-          }
-        },
-        {
-          "id": "com.google.j2objc:j2objc-annotations:3.0.0",
-          "name": "NeoForge (j2objc-annotations)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 12467,
-            "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar",
-            "MD5": "F59529B29202A5BAF37F491EA5EC8627"
-          }
-        },
-        {
-          "id": "org.codehaus.plexus:plexus-utils:3.5.1",
-          "name": "NeoForge (plexus-utils)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 269335,
-            "url": "https://maven.neoforged.net/releases/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar",
-            "MD5": "CDEC471A77F52E687D0DF4C43F392A71"
-          }
-        },
-        {
-          "id": "org.apache.commons:commons-lang3:3.17.0",
-          "name": "NeoForge (commons-lang3)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 673587,
-            "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar",
-            "MD5": "7730DF72B7FDFF4A3A32D89A314F826A"
-          }
-        },
-        {
-          "id": "com.machinezoo.noexception:noexception:1.7.1",
-          "name": "NeoForge (noexception)",
-          "type": "Library",
-          "classpath": true,
-          "artifact": {
-            "size": 250861,
-            "url": "https://maven.neoforged.net/releases/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar",
-            "MD5": "FCC3E4DF4990088C964F687B62F7C448"
-          }
-        },
-        {
           "id": "net.neoforged:neoforge:21.8.53",
           "name": "NeoForge 21.8.53",
           "type": "ForgeHosted",
-          "classpath": true,
-          "artifact": {
-            "size": 29525242,
-            "MD5": "5178B8EE0DBB4CFF18266CE119F41571",
-            "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/latest/download/neoforge-21.8.53.jar"
+          "required": true,
+          "download": {
+            "url": "https://neoforged.net",
+            "size": 1345670,
+            "md5": "CHANGE_TO_ACTUAL_NEOFORGE_JAR_MD5"
           },
           "subModules": [
             {
-              "id": "1.21.8-neoforge-21.8.53",
-              "name": "NeoForge (version.json)",
-              "type": "VersionManifest",
+              "id": "net.neoforged.fancymodloader:bootstraplauncher:9.0.18",
+              "name": "NeoForge (bootstraplauncher)",
+              "type": "Library",
+              "classpath": true,
               "artifact": {
-                "size": 19316,
-                "MD5": "0B1AE81C2E211E75DE44E68088ED0FC9",
-                "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/latest/download/neoforge-21.8.53.json"
+                "size": 11196,
+                "url": "https://neoforged.net",
+                "MD5": "5BF6153C69DD28951A699F7F834EFE1A"
+              }
+            },
+            {
+              "id": "net.neoforged.fancymodloader:securejarhandler:9.0.18",
+              "name": "NeoForge (securejarhandler)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 103770,
+                "url": "https://neoforged.net",
+                "MD5": "AED684DE72B22E08D0B0769AE1B20691"
+              }
+            },
+            {
+              "id": "net.neoforged:JarJarFileSystems:0.4.1",
+              "name": "NeoForge (JarJarFileSystems)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 31807,
+                "url": "https://neoforged.net",
+                "MD5": "8D75021E5AEB04652B4B9AE3DF500B9E"
+              }
+            },
+            {
+              "id": "net.neoforged.fancymodloader:earlydisplay:9.0.18",
+              "name": "NeoForge (earlydisplay)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 325408,
+                "url": "https://neoforged.net",
+                "MD5": "6BF926EFA9FF7E4B876F3DBED0D72495"
+              }
+            },
+            {
+              "id": "net.neoforged.fancymodloader:loader:9.0.18",
+              "name": "NeoForge (loader)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 616152,
+                "url": "https://neoforged.net",
+                "MD5": "0BEB9BE8399B0AC07273A3118A1C1328"
+              }
+            },
+            {
+              "id": "net.neoforged:accesstransformers:11.0.2",
+              "name": "NeoForge (accesstransformers)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 20292,
+                "url": "https://neoforged.net",
+                "MD5": "922DCBACD9DCC03115E38ACE7F518970"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "NeoForge (asm)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 126113,
+                "url": "https://neoforged.net",
+                "MD5": "F5ADF3BFC54FB3D2CD8E3A1F275084BC"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "NeoForge (asm-commons)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 73498,
+                "url": "https://neoforged.net",
+                "MD5": "C8C3D9CCF240144E74D94FF658B024C9"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "NeoForge (asm-tree)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 51934,
+                "url": "https://neoforged.net",
+                "MD5": "4AB1AAEC43C77A2D9B56E6D6D496F705"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "NeoForge (asm-util)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 94559,
+                "url": "https://neoforged.net",
+                "MD5": "62498EF324BDAB15F407D703F7D78D19"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "NeoForge (asm-analysis)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 35151,
+                "url": "https://neoforged.net",
+                "MD5": "3D63508405F5610FC2EA673FF5471553"
+              }
+            },
+            {
+              "id": "net.neoforged:bus:8.0.5",
+              "name": "NeoForge (bus)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 30340,
+                "url": "https://neoforged.net",
+                "MD5": "95EEE080D9DE7CB764ADCB8FA2ECF3FB"
+              }
+            },
+            {
+              "id": "net.neoforged:JarJarSelector:0.4.1",
+              "name": "NeoForge (JarJarSelector)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 17168,
+                "url": "https://neoforged.net",
+                "MD5": "20D1FE8972655189F69845554EE1A4D1"
+              }
+            },
+            {
+              "id": "net.neoforged:JarJarMetadata:0.4.1",
+              "name": "NeoForge (JarJarMetadata)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 15648,
+                "url": "https://neoforged.net",
+                "MD5": "C2F30969DD8B1DC8E3F78C731BD2C5C8"
+              }
+            },
+            {
+              "id": "net.neoforged:mergetool:2.0.0:api",
+              "name": "NeoForge (mergetool)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 2550,
+                "url": "https://neoforged.net",
+                "MD5": "818B398F65B8DC5AF802B721FD1D0B56"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.8.3",
+              "name": "NeoForge (night-config-core)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 382911,
+                "url": "https://neoforged.net",
+                "MD5": "A69DB71D5C9C274FF08F175D7C12CB1A"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.8.3",
+              "name": "NeoForge (night-config-toml)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 39516,
+                "url": "https://neoforged.net",
+                "MD5": "71C9F7B86422F206C0D78C1A0600FD3A"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.9.9",
+              "name": "NeoForge (maven-artifact)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 58819,
+                "url": "https://neoforged.net",
+                "MD5": "20BD92BE3CCAF3E23AF2264DA062B28B"
               }
             }
           ]
-        },
-        {
-          "id": "myliferp:MyLifeRPSoloV0.5:1.0.0",
-          "name": "MyLifeRPSoloV0.5",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 10388299,
-            "url": "https://github.com/PBearzcode/MyLifeRPsoloV0.5/releases/latest/download/roleplay-1.0.0-neoforge-1.21.8.jar",
-            "MD5": "E5FB0CB2831F7016A60A0D010545E5BF"
-          }
         }
       ]
     }
